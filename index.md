@@ -30,8 +30,8 @@ Lux = (500.0000 * Voltage_A0)/ (Resistor(value in kOhms) *(TotalVoltage -Voltage
 For calibratiing out sensor I have used an app in my phone to observe the accurate value of light intensity at the same lighting conditions.After multiple observations we obtained the calibration data.This data is fed into the ```FmultiMap``` to get the calibrated value of sensor.
 
 ## Data observed
-The value of Voltage dropped at the sensor ranges from  `0.2 V to 3.9 V`
-THe value of Resistance observed ranges from `43.2 Ohms to 4883.2 Ohms`
+The value of Voltage dropped at the sensor ranges from  `0.2 V to 3.9 V`.
+THe value of Resistance observed ranges from `43.2 Ohms to 4883.2 Ohms`.
 The following graph is observed.
 
 ![Image](sensor-graph.png)
