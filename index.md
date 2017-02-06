@@ -1,12 +1,10 @@
-## Welcome to GitHub Pages
+## Arduino Assignment 2
 
-You can use the [editor on GitHub](https://github.com/lungiman/arduino/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This project deals with using arduino to study about sensors.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Light Dependant Registers(LDR)
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Light Dependant Registers (LDR's ) vary their resistance with the intensity of light falling on them.We use this as a sensor in the below circuit to vary the voltage being dropped over it. The varying voltage reading is passed on to a PWM pin to light up an LED to display the changes.
 
 ```markdown
 Syntax highlighted code block
