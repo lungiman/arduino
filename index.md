@@ -7,6 +7,13 @@ This project deals with using arduino to study about sensors.
 Light Dependant Registers (LDR's ) vary their resistance with the intensity of light falling on them.We use this as a sensor in the below circuit to vary the voltage being dropped over it. The varying voltage reading is passed on to a PWM pin to light up an LED to display the changes.
 
 ![Image](sensor-pic.jpg)
+
+
+### The setup
+We build the following circuit for controlling the LED lighting using the LDR.
+![Image](sensor-fritzing.jpg)
+![Image](sensor-hlc.jpg)
+
 ```markdown
 Syntax highlighted code block
 
