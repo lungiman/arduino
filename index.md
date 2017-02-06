@@ -11,6 +11,7 @@ Light Dependant Registers (LDR's ) vary their resistance with the intensity of l
 
 ## The setup
 We build the following circuit for controlling the LED lighting using the LDR.
+
 ![Image](sensor-hlc.jpg.gif)
 ![Image](sensor-fritzing.jpg)
 
