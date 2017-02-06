@@ -34,7 +34,7 @@ The value of Voltage dropped at the sensor ranges from  `0.2 V to 3.9 V`
 THe value of Resistance observed ranges from `43.2 Ohms to 4883.2 Ohms`
 The following graph is observed.
 
-![Image](sensor-graph.jpg)
+![Image](sensor-graph.png)
 
 
 
