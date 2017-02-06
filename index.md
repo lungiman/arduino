@@ -20,14 +20,14 @@ The signal received at A0 is passed to PWM pin nummber 14 which lights the LED.
 
 ### Calculating the light Intensity
 We can calculate the value of the light intensity using the below formula.
-'''
+```
 Lux = 500/(Value of Resistor in KOhms)
 We can calculate the resistance value using the voltage observed in A0 and the value of the other resistor in series
 Lux = (500.0000 * Voltage_A0)/ (Resistor(value in kOhms) *(TotalVoltage -Voltage_A0 ));
-'''
+```
 
 ### Calibration
-For calibratiing out sensor I have used an app in my phone to observe the accurate value of light intensity at the same lighting conditions.After multiple observations we obtained the calibration data.This data is fed into the '''FmultiMap''' to get the calibrated value of sensor.
+For calibratiing out sensor I have used an app in my phone to observe the accurate value of light intensity at the same lighting conditions.After multiple observations we obtained the calibration data.This data is fed into the ```FmultiMap``` to get the calibrated value of sensor.
 
 
 ```markdown
