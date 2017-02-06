@@ -29,31 +29,12 @@ Lux = (500.0000 * Voltage_A0)/ (Resistor(value in kOhms) *(TotalVoltage -Voltage
 ### Calibration
 For calibratiing out sensor I have used an app in my phone to observe the accurate value of light intensity at the same lighting conditions.After multiple observations we obtained the calibration data.This data is fed into the ```FmultiMap``` to get the calibrated value of sensor.
 
+## Data observed
+The value of Voltage dropped at the sensor ranges from  `0.2 V to 3.9 V`
+THe value of Resistance observed ranges from `43.2 Ohms to 4883.2 Ohms`
+The following graph is observed.
 
-```markdown
-Syntax highlighted code block
+![Image](sensor-graph.jpg)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lungiman/arduino/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
